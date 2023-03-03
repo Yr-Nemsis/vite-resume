@@ -1,16 +1,14 @@
 <template>
-  <router-view/>
+  <h1>Buwei Wu's Resume Web</h1>
 </template>
 
 <script setup>
-  import {useRouter} from "vue-router";
 
-  const router = useRouter()
 </script>
 
 <script>
 export default {
-  name: "App"
+  name: "TheHeader"
 }
 </script>
 

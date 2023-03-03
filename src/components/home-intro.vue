@@ -1,16 +1,14 @@
 <template>
-  <router-view/>
+  <h1>home-intro</h1>
 </template>
 
 <script setup>
-  import {useRouter} from "vue-router";
 
-  const router = useRouter()
 </script>
 
 <script>
 export default {
-  name: "App"
+  name: "HomeIntro"
 }
 </script>
 

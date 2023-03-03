@@ -1,16 +1,14 @@
 <template>
-  <router-view/>
+  <h1>home-hero</h1>
 </template>
 
 <script setup>
-  import {useRouter} from "vue-router";
 
-  const router = useRouter()
 </script>
 
 <script>
 export default {
-  name: "App"
+  name: "HomeHero"
 }
 </script>
 
