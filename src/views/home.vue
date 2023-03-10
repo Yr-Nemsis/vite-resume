@@ -1,6 +1,17 @@
 <template>
-  <HomeIntro></HomeIntro>
-  <HomeHero></HomeHero>
+  <el-container>
+    <el-main>
+
+      <el-row>
+        <home-intro></home-intro>
+      </el-row>
+
+      <el-row>
+        <home-hero></home-hero>
+      </el-row>
+
+    </el-main>
+  </el-container>
 </template>
 
 <script setup>
